@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Special+Elite&display=swap');
+
+:root{
+    --azul: #1E90FF;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mate SC', serif;
+    font-family: 'Special Elite', cursive;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Mate SC', serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--azul);
+    font-family: 'Mate SC', serif;
+    font-size: 40px;
+    border: solid 3px #4682B4;
+    border-radius: 8px;
+    padding: 7px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+header .d20{
+    max-height: 100px;
+    margin-top: 10px;
+}
+
+header p{
+    font-size: 20px;
+    justify-content: flex-start;
+    margin-left: 15px;
+    font-family: 'Mate SC';
+}
+
+header nav{
+    border: solid 3px #4682B4;
+    border-radius: 5px;
+    padding: 8px;
+} 
+
+header nav a{
+    text-decoration: none;
+    color: var(--azul);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #AAA;
+}
+
+.rpg-principal{
+    font-size: 18px;
+    background: linear-gradient( rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa02.jpg');
+    height:40%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.rpg-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+    font-family: 'Mate SC';
+    background-color: rgba(0,0,0,.50);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.rpg-principal .titulo{
+    margin-top: 15%;
+    margin-left: 10px;
+    font-size: 45px;
+    font-family: 'Special elite', serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease all;
+    margin-bottom: 12%;
+    border-radius: 3px;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.rpg-principal .container{
+    width: 70%;
+}
+
+.botao i{
+    margin-left: 10px;
+}
+
+.box-rpg{
+    height:100%;
+    width:100%;
+    display:block;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.carrossel-rpg {
+    margin-top: 10px;
+}
+
+footer .copyright{
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+}
+
+footer i{
+    margin-right: 5px;
+}
+
