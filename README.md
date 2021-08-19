@@ -1,4 +1,4 @@
-# Blue dragon
+# Blue dragon <i class="fas fa-dragon"></i>
 
 Blue dragon é uma pagina desenvolvida em HTML5, CSS3 e JS, utilizando a interface da Netflix de Base, porém com o objetivo de ser um sistema que reúne os mais variádos sistemas de RPG's (Role Playing Game), e também possiblitando ao usuário entrar em uma sala ou até mesmo criar uma nova sala para jogar online o sistema desejado.
 
